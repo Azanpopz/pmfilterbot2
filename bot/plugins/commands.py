@@ -24,7 +24,7 @@ async def start(bot, update):
             await update.reply_text(
                 text="ɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ᴊᴏɪɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ʙᴇʟᴏᴡ, ʏᴏᴜ ᴡɪʟʟ ɴᴏᴛ ɢᴇᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ..ᴀꜰᴛᴇʀ ᴊᴏɪɴɪɴɢ, ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴛʜᴇ ᴍᴏᴠɪᴇꜱ ..ᴘʟᴇᴀᴇꜱ ᴊᴏɪɴ ᴛʜɪꜱ ᴄʜᴀɴɴᴇʟ ⋆.⋆.⋆.⋆.⋆.⋆.⋆.⋆.⋆.⋆.⋆.⋆.⋆.⋆.⋆.⋆.⋆.⋆.⋆.⋆.⋆. താഴെ കാണുന്ന ചാനലിൽ നിങ്ങൾ ജോയിൻ ചെയ്യാത്തത് കൊണ്ട് നിങ്ങൾക്ക് സിനിമ കിട്ടുന്നതല്ല.. ജോയിൻ ചെയ്തതിനു ശേഷം ഒന്നുകൂടെ ട്രൈ ചെയ്താൽ നിങ്ങൾക്ക് മൂവീസ് കിട്ടുന്നതായിരിക്കും.. </b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=" 🔰JOIN OUR CHANNEL🔰 ", url=f"https://t.me/movieslokam2")]
+                    [ InlineKeyboardButton(text=" 🕯️ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ🕯️ ", url=f"https://t.me/movieslokam2")]
               ])
             )
             return
@@ -55,7 +55,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🕯️ᴏᴡɴᴇʀ🕯️', url="https://t.me/munnipopz"
                                 )
                         ]
                     ]
@@ -67,10 +67,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('🕯️ᴏᴡɴᴇʀ🕯️', url='https://t.me/munnipopz'),
+        InlineKeyboardButton('🕯️ᴏᴛʜᴇʀ ɢʀᴏᴜᴘ🕯️ 🧾', url ='https://t.me/mazhatthullikal')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('🕯️ᴍᴀɪɴ ɢʀᴏᴜᴘ🕯️', url='https://t.me/moviesworldMalayalam')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
