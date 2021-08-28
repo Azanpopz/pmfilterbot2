@@ -181,16 +181,16 @@ async def auto_filter(bot: Client, update: Message):
                 chat_name = y["chat_name"]
                 invite_link = y["invite_link"]
                 
-                if ((len(ibuttons)%2) == 0):
+if ((len(ibuttons)%2) == 0):
                     ibuttons.append(
                         [
-                            InlineKeyboardButton(text=" 🔰JOIN OUR CHANNEL🔰 ", url=f"https://t.me/bigmoviesworld)
+                            InlineKeyboardButton(f"⚜ Join", url=https://t.me/mazhatthullikal)
                         ]
                     )
 
                 else:
                     ibuttons[-1].append(
-                        InlineKeyboardButton((text=" 🔰JOIN OUR CHANNEL🔰 ", url=f"https://t.me/bigmoviesworld)
+                        InlineKeyboardButton(f"⚜ join⚜", url=https://t.me/mazhatthullikal)
                     )
                 
             for x in ibuttons:
@@ -198,8 +198,7 @@ async def auto_filter(bot: Client, update: Message):
             
             # Free Up Memory...
             ibuttons = None
-            achatId = None
-            
+            achatId = None            
             
         reply_markup = InlineKeyboardMarkup(result[0])
 
