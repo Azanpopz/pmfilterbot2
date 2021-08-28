@@ -70,7 +70,7 @@ async def start(bot, update):
         InlineKeyboardButton('🕯️ᴏᴡɴᴇʀ🕯️', url='https://t.me/munnipopz'),
         InlineKeyboardButton('🕯️ᴏᴛʜᴇʀ ɢʀᴏᴜᴘ🕯️ 🧾', url ='https://t.me/mazhatthullikal')
     ],[
-        InlineKeyboardButton('🕯️ᴍᴀɪɴ ɢʀᴏᴜᴘ🕯️', url='https://t.me/moviesworldMalayalam')
+        InlineKeyboardButton('🕯️ᴍᴀɪɴ ɢʀᴏᴜᴘ🕯️', url='https://t.me/MoviesLokamMalayalam')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
