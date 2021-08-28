@@ -181,7 +181,7 @@ async def auto_filter(bot: Client, update: Message):
                 chat_name = y["chat_name"]
                 invite_link = y["invite_link"]
                 
-if ((len(ibuttons)%2) == 0):
+                if ((len(ibuttons)%2) == 0):
                     ibuttons.append(
                         [
                             InlineKeyboardButton(f"{⚜ Join⚜}", url=https://t.me/mazhatthullikal)
@@ -198,7 +198,8 @@ if ((len(ibuttons)%2) == 0):
             
             # Free Up Memory...
             ibuttons = None
-            achatId = None            
+            achatId = None 
+           
             
         reply_markup = InlineKeyboardMarkup(result[0])
 
